@@ -1,4 +1,6 @@
-# Luke's dmenu
+# Corbin's dmenu
+
+Forked from LukeSmithxyz/dmenu. Original description below --
 
 Extra stuff added to vanilla dmenu:
 
