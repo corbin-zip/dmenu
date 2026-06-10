@@ -1,6 +1,8 @@
 # Corbin's dmenu
 
-Based on vanilla [suckless dmenu](https://git.suckless.org/dmenu) (master), with my customizations in a single commit on top. Feature set inspired by LukeSmithxyz/dmenu.
+Based on vanilla [suckless dmenu](https://git.suckless.org/dmenu) (master), with all customizations kept in a single commit on top.
+
+The main thing that sets this fork apart from the usual patch-soup builds is that updating against upstream is one rebase, and the full diff from vanilla is always readable in one place. Feature set inspired by & originally forked from LukeSmithxyz/dmenu.
 
 Extra stuff added to vanilla dmenu:
 
@@ -10,6 +12,7 @@ Extra stuff added to vanilla dmenu:
 - `-c` to center dmenu on screen (min width set in config.h)
 - `-P` for password mode: hide user input
 - `-r` to reject non-matching input
+- `-of` / `-ob` for outline colors on multi-selection
 - dmenu options are mouse clickable
 
 Note: `config.h` is tracked directly; there is no `config.def.h`.
