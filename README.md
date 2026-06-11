@@ -1,8 +1,6 @@
 # Corbin's dmenu
 
-Based on vanilla [suckless dmenu](https://git.suckless.org/dmenu) (master), with all customizations kept in a single commit on top.
-
-The main thing that sets this fork apart from the usual patch-soup builds is that updating against upstream is one rebase, and the full diff from vanilla is always readable in one place. Feature set inspired by & originally forked from LukeSmithxyz/dmenu.
+Based on vanilla [suckless dmenu](https://git.suckless.org/dmenu) (upstream). Customizations were folded into a single commit when the fork was cleaned up against vanilla; newer work is to land as normal commits on top, and upstream changes are merged as they come in. Feature set inspired by & originally forked from LukeSmithxyz/dmenu.
 
 Extra stuff added to vanilla dmenu:
 
@@ -25,6 +23,6 @@ After making any config changes that you want, just `make`, `sudo make install` 
 
 ```sh
 git fetch upstream
-git rebase upstream/master
+git merge upstream/master
 make && sudo make install
 ```
